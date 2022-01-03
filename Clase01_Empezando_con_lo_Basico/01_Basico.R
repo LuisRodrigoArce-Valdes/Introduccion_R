@@ -1,4 +1,3 @@
-# Luis Rodrigo Arce Valdés
 # Script con funciones básicas para aprender a usar R
 
 # 1era parte: calculadora y funciones ####
