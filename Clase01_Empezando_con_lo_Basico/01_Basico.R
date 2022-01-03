@@ -1,5 +1,5 @@
+# 01_Basico.R (03/01/22)
 # Script con funciones básicas para aprender a usar R
-
 # 1era parte: calculadora y funciones ####
 
 # En R (así como en cualquier lenguaje de programación existen 2 tipos de líneas):
@@ -15,8 +15,8 @@
 # En su estructura más simple nosotros podemos usar R como una calculadora:
 5 + 8
 3*2
-10     /     2 #Fijate como el espaciado en R no afecta su funcionamiento
-(5 - 2)*10 # Y como también puedo escribir comentarios así
+10     /     2 #Fijate como en estos casos el espaciado en R no afecta su funcionamiento
+(5 - 2)*10 # Y como también puedo escribir comentarios a la derecha del código, R lee todo después del # como comentario
 
 # Potencias:
 5**3
@@ -34,11 +34,11 @@ C
 tres <- 3
 tres
 
-gato <- 5.1
-gato
+michi <- 5.1
+michi
 
-tres.gatos <- tres * gato
-tres.gatos
+tres.michis <- tres * michi
+tres.michis
 
 # TIP: Nombra tus variables (u objetos como se llaman en R) de forma intuitiva
 # PELIGRO: "F" Y "T" son nombres PROHIBIDOS para variables, ¡NUNCA LAS USES!
@@ -48,7 +48,7 @@ tres.gatos
 # Cada vez que los usamos R los carga de su memoria:
 C - A
 A*B
-tres.gatos*C
+tres.michis*C
 
 # Usar R así; como calculadora, es muy aburrido y sin chiste, afortunadamente R cuenta con funciones.
 # Las funciones en R siguen esta estructura: función(objeto, argumentos)
@@ -63,7 +63,7 @@ round(kiki, 3)
 
 # ...
 # Nos apareció esto: "Error: object 'kiki' not found"
-# Ten cuidado R es sensible a mayusculas, nosotros tenemos un Kiki, pero no un kiki
+# Ten cuidado R es sensible a mayusculas, nosotros tenemos un "Kiki", pero no un "kiki"
 round(Kiki, 3)
 
 # Y podemos guardar el resultado de una función en otro objeto
@@ -92,7 +92,7 @@ help(round)
 # Si vemos nuestro environment tenemos muchos objetos en memoria: A, B, C, Kiki, mini.Kiki, etc...
 # Limpiemos un poco y eliminemos de la memoria los que ya no nos sirven:
 A
-rm(A, B, C, mini.Kiki, gato, tres, tres.gatos)
+rm(A, B, C, mini.Kiki, michi, tres, tres.michis)
 A
 # Nos aparece el error "Error: object 'A' not found" porque acabamos de eliminarlo
 # Agüas, una vez que elimines un objeto NO podras recuperarlo.
@@ -104,3 +104,7 @@ A
 # por ejemplo, queremos sacar el logaritmo base 5 de "Kiki", sacarle la raíz y redondearlo a 3 decimales:
 micro.Kiki <- round(sqrt(log(Kiki, base = 5)), digits = 3) # Fijate MUY BIEN en los parentesis y en los argumentos de cada función
 micro.Kiki
+
+# ¿Puedes obtener el valor absoluto del logaritmo natural de Kiki elevado al cubo?
+
+
