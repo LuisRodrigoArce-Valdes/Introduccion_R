@@ -5,7 +5,7 @@ Como objetivo para el 2022 mi novia desea aprender R y yo deseo ayudarle a hacer
 
 ### ¿Porqué aprender R?
 
-Esta pregunta es fácil de responder. Basta con [googlearla](https://www.google.com/search?q=porque+aprender+r&oq=porque+aprender+r&aqs=chrome..69i57j0i512j0i22i30l8.2693j0j7&sourceid=chrome&ie=UTF-8) y encontraremos varios blogs que hablan de las ventajas de aprender R. Cómo genetista R es junto con Bash y unos toques de otros lenguajes mi pan de cada dia, pero viendo los análisis que Kary (estudiando tratamiento de aguas residuales) hace, sé que también le será útil. R permite hacer análisis independientemente de donde vingan esos datos: biología, mercadotecnía, ingeniería, etc. Es más, yo he usado R hasta para ayudarle a un primo a [analizar acciones](https://cran.r-project.org/web/packages/BatchGetSymbols/BatchGetSymbols.pdf) de las bolsas de EUA. Algunos puntos de lo que sin llegar a ser experto (es decir, lo que yo he hecho) que se puede hacer en R:
+Esta pregunta es fácil de responder. Basta con [googlearla](https://www.google.com/search?q=porque+aprender+r&oq=porque+aprender+r&aqs=chrome..69i57j0i512j0i22i30l8.2693j0j7&sourceid=chrome&ie=UTF-8) y encontraremos varios blogs que hablan de las ventajas de aprender R. Cómo genetista R es junto con Bash y unos toques de otros lenguajes mi pan de cada dia, pero viendo los análisis que Kary (estudiando tratamiento de aguas residuales) hace, sé que también le será útil. R permite hacer análisis independientemente de donde vingan esos datos: biología, mercadotecnía, ingeniería, etc. Es más, yo he usado R hasta para ayudarle a un primo a [analizar acciones](https://cran.r-project.org/web/packages/BatchGetSymbols/BatchGetSymbols.pdf) de las bolsas de EUA. Algunos puntos de lo que sin llegar a ser experto se puede hacer en R:
 
 - Exploración de datos y obtención de estadisticos de resumen.
 - Realizar pruebas estadísticas frecuentistas básicas.
@@ -32,6 +32,7 @@ R es como tal el lenguaje que aprenderemos a usar y el motor con el que realizar
 ![Screen2](./Fotos/Screen2.png)
 5. Finamente daremos en clic en descargar R para Windows. Es probable que la versión mas reciente de R al momento de que leas este tutorial es diferente a la que había en Enero del 2022. No te preocupes, todo lo fundamental seguirá funcionando de la misma forma.
 ![Screen3](./Fotos/Screen3.png)
+6. Una vez que se descargue el instalador, dar doble clic y seguir las instrucciones en pantalla.
 
 #### Instalación de RStudio
 Mientras R es el motor que usaremos en nuestros calculos RStudio funciona como un tablero que nos permitirá visualizar de forma más eficiente nuestro código y programar de forma más sencilla. No es escencial contar con RStudio y algunos puristas prefieren trabajar únicamente con R, pero en mi experiencia resulta muy conveniente y no le he visto ninguna desventaja a implementarlo. Para instalar RStudio haremos lo siguiente:
