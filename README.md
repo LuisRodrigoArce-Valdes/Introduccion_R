@@ -36,6 +36,12 @@ R es como tal el lenguaje que aprenderemos a usar y el motor con el que realizar
 
 #### Instalación de RStudio
 Mientras R es el motor que usaremos en nuestros calculos RStudio funciona como un tablero que nos permitirá visualizar de forma más eficiente nuestro código y programar de forma más sencilla. No es escencial contar con RStudio y algunos puristas prefieren trabajar únicamente con R, pero en mi experiencia resulta muy conveniente y no le he visto ninguna desventaja a implementarlo. Para instalar RStudio haremos lo siguiente:
+1. Entra al siguiente vínculo: [https://www.rstudio.com/products/rstudio/download/](https://www.rstudio.com/products/rstudio/download/).
+2. Descargaremos la versión gratuita de RStudio.
+![Screen4](./Fotos/Screen4.png)
+3. El sitio web de RStudio automaticamente identificará la versión recomendada para nuestro equipo. Descargaremos el ejecutable que nos recimiende.
+![Screen5](./Fotos/Screen5.png)
+4. Finalmente daremos doble clic en el ejecutable que acabamos de descargar y seguiremos las instrucciones en pantalla.
 
 ### ¿Cómo funciona el curso?
 La forma más recomendable para trabajar el curso es descargar este repositorio completo. Mientras este repositorio vaya actualizandose quiere decir que cada vez que termine una nueva sección tendrás o que descargar nuevamente el repositorio o descargar solamente los scripts de las clases que no tengas. Para descargar todo el repositorio haremos lo siguiente:
@@ -59,3 +65,27 @@ La forma más recomendable para trabajar el curso es descargar este repositorio 
 ![ScreenF](./Fotos/ScreenF.png)
 
 ### Conociendo la interfaz de R y de RStudio
+Tras abrir Rstudio configuraremos nuestra interfaz. Para hacer eso primero ubicaremos la barra de herramientas (aquí remarcada en rojo), en ella encontraremos una diversa cantidad de menus que nos permiten realizar opciones como crear nuevos archivos de texto para scripts, guardar nuestros trabajos o cargar archivos guardados:
+![Screen6](./Fotos/Screen6.png)
+
+Dar clic en la barra de herramientas en `Tools > Global Options...`, haciendo que se abra una pantalla como la siguiente:
+![Screen7](./Fotos/Screen7.png)
+
+De aquí daremos clic en `Pane Layout`.
+![Screen8](./Fotos/Screen8.png)
+
+Esta pantalla nos permite configurar el acomodo que tendran las diferentes pantallas que nos ofrece RStudio, mi consejo es que lo configures como se muestra en la imagen anterior. Es decir, `Source` en la pantalla superior izquierda, `Console` en la inferior izquierda, `Plots` y `Viewer` en la inferior derecha y el resto de las pantalla en la superior derecha.
+
+Ahora veremos que es cada elemento de nuestra pantalla de RStudio:
+![Screen9](./Fotos/Screen9.png)
+
+A. En la sección que asignamos como `Source` apareceran los archivos de texto en los que escribiremos nuestros códigos.
+
+B. En esta sección veremos un conjunto de pestañas que nos permitiran conocer las configuraciones y opciones más importantes en RSTUDIO. Las dos más relevantes por ahora serán las pestañas `Environment` y `Files`. La primera nos permitirá conocer los objetos que iremos creando en R y la segunda los archivos que se encuentran en nuestro directorio de trabajo.
+
+C. La consola de R es el centro de ejecución de R, ahí se nos irá imprimiendo el resultado de nuestros comandos.
+
+D. En esta pantalla observaremos los gráficos que iremos creando.
+
+**Con esto terminas tu introducción a R y RStudio, ¡Comencemos a programar!**
+
